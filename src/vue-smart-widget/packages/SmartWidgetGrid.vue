@@ -1,7 +1,7 @@
 <template>
   <grid-layout
-    v-model:layout="layout"
-    v-model:col-num="colNum"
+    :layout="layout"
+    :col-num="colNum"
     v-bind="layoutAttrs"
     v-on="gridLayoutEvents"
   >
@@ -121,6 +121,11 @@ export default {
         }
       })
     })
+  },
+  watch: {
+    colNum(value) {
+      this.layoutAttrs.colNum = value
+    }
   }
 }
 </script>
