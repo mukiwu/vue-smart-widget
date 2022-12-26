@@ -2,7 +2,7 @@
   "name": "@mukiwu/vue-smart-widget",
   "description": "Smart widget is a flexible and extensible content container component for Vue3.x.",
   "displayName": "VueSmartWidget",
-  "version": "1.0.2-alpha.1",
+  "version": "1.0.3",
   "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
   "scripts": {
     "dev": "vite",
@@ -20,12 +20,12 @@
   "files": [
     "lib"
   ],
-  "main": "./lib/vue-smart-widget.umd.js",
-  "module": "./lib/vue-smart-widget.es.js",
+  "main": "./lib/@mukiwu/vue-smart-widget.umd.js",
+  "module": "./lib/@mukiwu/vue-smart-widget.es.js",
   "exports": {
     ".": {
-      "import": "./lib/vue-smart-widget.es.js",
-      "require": "./lib/vue-smart-widget.umd.js"
+      "import": "./lib/@mukiwu/vue-smart-widget.es.js",
+      "require": "./lib/@mukiwu/vue-smart-widget.umd.js"
     }
   },
   "keywords": [
